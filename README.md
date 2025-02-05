@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HTML LEARNING
 ## _Html5_
 
