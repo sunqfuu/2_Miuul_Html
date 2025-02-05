@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HTML LEARNING
 ## _Html5_
 
@@ -46,3 +47,6 @@ Install the dependencies and devDependencies and start the server.
 mkdir blog
 cd blog
 ```
+=======
+
+>>>>>>> 811e5283063d5d17e77cc8d5d5b736a129e45fff
