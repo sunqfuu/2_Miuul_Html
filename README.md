@@ -35,7 +35,7 @@ watch the results in the right.
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
+
 
 - [AngularJS] - HTML enhanced for web apps!
 - [Ace Editor] - awesome web-based text editor
@@ -48,8 +48,7 @@ Dillinger uses a number of open source projects to work properly:
 to Markdown converter
 - [jQuery] - duh
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
+
 
 ## Installation
 
