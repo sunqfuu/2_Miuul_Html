@@ -35,6 +35,112 @@
     <body>
     <noscript>Your Browser Doesn't Support Javascript</noscript>
     <!-- start code -->
+    <!-- Intermedia Form and Table -->
+    <h1>Intermedia Form and Table</h1>
+    <form>
+    <table>
+    <!-- Name -->
+        <tr>
+        <td><label for="uname">Name</label></td>
+        <td>
+            <input 
+            type="text" 
+            id="uname"
+            name="uname"
+            required
+            placeholder="Enter Your Name"
+            title="Please Enter Your Name"
+            autofocus
+            >
+        </td>
+    </tr>
+    <!-- Surname -->
+        <tr>
+        <td><label for="usurname">SurName</label></td>
+        <td>
+            <input 
+            type="text" 
+            id="usurname"
+            name="usurname"
+            required
+            placeholder="Enter Your SurName"
+            title="Please Enter Your SurName"
+            >
+        </td>
+    </tr>
+    <!-- E-Mail -->
+        <tr>
+        <td><label for="uemail">E-Mail</label></td>
+        <td>
+            <input 
+            type="email" 
+            id="uemail"
+            name="uemail"
+            required
+            placeholder="Enter Your E-Mail"
+            title="Please Enter Your E-Mail"
+            >
+        </td>
+    </tr>
+    <!-- Password -->
+       <tr>
+        <td><label for="upassword">Password</label></td>
+        <td>
+            <input 
+            type="password" 
+            id="upassword"
+            name="upassword"
+            required
+            placeholder="Enter Your 
+            Password"
+            title="Please Enter Your 
+            Password"
+            minlength="6"
+            maxlength="12"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,12}"
+            >
+        </td>
+    </tr>
+    <!-- Gender -->
+    <tr>
+        <td><label>Gender</label></td>
+        <td>
+            <input 
+            type="radio" 
+            id="female"
+            name="Gender"
+            checked
+             > Female
+
+             <input 
+             type="radio" 
+             id="Male"
+             name="Gender"
+              >Male
+        </td>
+    </tr>
+    <!-- Date -->
+    <tr>
+        <td><label for="udate">Date</label></td>
+        <td>
+            <input 
+            type="datetime-local" 
+            id="udate"
+            name="udate"
+            required
+             > 
+        </td>
+    </tr>
+
+    <!-- Button -->
+        <tr>
+            <td></label></td>
+        <td><input type="reset">
+        <button type="submit">Gönder</button></td>
+    </tr>
+    </form>
+    </table>
+    <hr><hr>
     <!-- Basic Form and Table -->
     <h1>Basic Form and Table</h1>
     <form>
